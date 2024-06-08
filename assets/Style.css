@@ -1,0 +1,14 @@
+.col {
+    /* background-color: powderblue; */
+    border: 2px dotted red; 
+    margin: 10px; 
+    padding: 50px; 
+    text-align: center;
+}
+.col-6 {
+    /* background-color: powderblue; */
+    border: 2px dotted red; 
+    margin: 10px; 
+    padding: 50px; 
+    text-align: center;
+}
