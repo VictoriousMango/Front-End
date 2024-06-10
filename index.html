@@ -56,6 +56,7 @@
                     <input class="form-control me-2" id="API-Search" type="search" placeholder="Enter API Link" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Connect</button>
                 </form>
+                <span id="Entry"></span>
                 <span id="Connection-status"></span>
             </div>
             </div>
@@ -81,15 +82,29 @@
         <!-- Right Side Bar -->
         <!-- <div class="container text-center"> -->
         <div class="row">
+            <div class="col"></div>
+            <div class="col-6"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
             <div class="col">
-            1 of 3
+                <div class="card">
+                    <div class="card-header">
+                      <h3>Dynamic Form</h3>
+                    </div>
+                    <div class="card-body">
+                      <span id="create-Form"></span>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-6">
-            2 of 3
-            </div>
-            <div class="col">
-            3 of 3
-            </div>
+            <div class="col"></div>            
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-6"></div>
+            <div class="col"></div>
         </div>
         <!-- </div> -->
         <!-- Including JS -->
@@ -97,6 +112,7 @@
         <!-- JS for the web page -->
         <script src="assets\connectNewAPI.js"></script>
         <script src="assets\openConnectedAPI.js"></script>
+        <script src="assets\createForm.js"></script>
         <script>
             function Toggling() {
                 console.log("Clicked the toggle button")
