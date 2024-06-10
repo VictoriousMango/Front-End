@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         try {
             // Fetch data from the API
-            const response = await fetch(`${apiLink}`);
+            console.info("Strting to Fetch")
+            const response = await fetch(`${apiLink}/connectionStat`);
             console.log(response)
             
             if (response.ok) {
